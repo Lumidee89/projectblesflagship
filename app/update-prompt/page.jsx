@@ -58,7 +58,7 @@ const UpdatePrompt = () => {
       post={post}
       setPost={setPost}
       submitting={submitting}
-      handleSubmit={updatePrompt}
+      handleSubmit={UpdatePrompt}
     />
   );
 };
